@@ -1,5 +1,7 @@
 .navbar {
-    background-color: #2e8b57 !important; /* Sea green navbar */
+    background-color: #2e8b57 !important; 
+    padding: 1rem 1.5rem; 
+    height: 70px; 
 }
 
 body {
