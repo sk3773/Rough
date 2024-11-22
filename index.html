@@ -12,14 +12,14 @@
     <style>
         .carousel-inner img {
             width: 100%;
-            height: 250px; /* Reduced height */
+            height: 250px; /* Adjusted height */
             object-fit: cover;
         }
 
         .card-img-top {
-            width: 100%;
-            height: 150px; /* Reduced height */
-            object-fit: cover;
+            width: 100%; /* Full width of the card */
+            height: 200px; /* Adjusted height for better fit */
+            object-fit: cover; /* Ensures the image maintains aspect ratio while filling the container */
         }
 
         .navbar-nav {
@@ -70,13 +70,13 @@
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/breakfast.jpg" class="d-block w-100" alt="Breakfast">
+                <img src="images/slide1.jpg" class="d-block w-100" alt="Breakfast">
             </div>
             <div class="carousel-item">
-                <img src="images/lunch.jpg" class="d-block w-100" alt="Lunch">
+                <img src="images/slide2.jpg" class="d-block w-100" alt="Lunch">
             </div>
             <div class="carousel-item">
-                <img src="images/dinner.jpg" class="d-block w-100" alt="Dinner">
+                <img src="images/slide3.jpg" class="d-block w-100" alt="Dinner">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
