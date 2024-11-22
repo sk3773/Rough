@@ -1,21 +1,20 @@
-/* main.css */
-
 .navbar {
-    background-color: darkslategray !important;
+    background-color: #4F4F4F !important;
 }
 
 body {
-    background-color: darkseagreen;
+    background-color: #98FB98;
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
 .content {
     padding: 30px 15px;
+    margin-top: 40px;
 }
 
 .card {
-    border: 2px solid darkslategray;
+    border: 2px solid #6DBE45;
     border-radius: 8px;
     padding: 15px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -29,12 +28,12 @@ body {
 }
 
 .footer {
-    background-color: darkslategray;
+    background-color: #4F4F4F;
     color: white;
     text-align: center;
     padding: 15px;
     margin-top: 40px;
-    border-top: 2px solid black;
+    border-top: 2px solid #6DBE45;
     font-size: 14px;
 }
 
@@ -48,7 +47,7 @@ body {
     width: 100%;
     height: 400px;
     border-radius: 8px;
-    border: 2px solid darkslategray;
+    border: 2px solid #6DBE45;
 }
 
 .navbar .d-flex {
@@ -58,6 +57,7 @@ body {
 .navbar .form-control {
     border-radius: 20px;
     padding-left: 15px;
+    border: 2px solid #6DBE45;
 }
 
 @media (max-width: 768px) {
