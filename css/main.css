@@ -1,4 +1,3 @@
-/* General Navbar and Page Styles */
 .navbar {
     background-color: #2e8b57 !important;
     padding: 1rem 1.5rem;
@@ -16,44 +15,43 @@ body {
     margin-top: 40px;
 }
 
-/* Recipe Section with Flex-Wrap */
+
 .recipe-container {
     display: flex;
-    flex-wrap: wrap; /* Enable wrapping of child elements */
-    gap: 20px; /* Add space between the image and text */
-    align-items: flex-start; /* Align items at the top */
+    flex-wrap: wrap; 
+    gap: 20px; 
+    align-items: flex-start; 
     margin-top: 20px;
 }
 
 .recipe-container img {
-    flex: 0 0 auto; /* Keep the image size fixed */
-    max-width: 40%; /* Adjust the image width */
-    height: auto; /* Maintain aspect ratio */
+    flex: 0 0 auto;
+    max-width: 40%; 
+    height: auto; 
     border-radius: 8px;
     border: 2px solid #6DBE45;
 }
 
 .recipe-container .text-content {
-    flex: 1 1 auto; /* Allow text to grow and shrink as needed */
-    min-width: 300px; /* Ensure a minimum width for the text block */
+    flex: 1 1 auto; 
+    min-width: 300px; 
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     .recipe-container {
-        flex-direction: column; /* Stack vertically on small screens */
+        flex-direction: column; 
     }
 
     .recipe-container img {
-        max-width: 100%; /* Full width on smaller screens */
+        max-width: 100%; 
     }
 
     .recipe-container .text-content {
-        margin-top: 10px; /* Add spacing for better layout */
+        margin-top: 10px; 
     }
 }
 
-/* Card and Footer Styles */
+
 .card {
     border: 2px solid #6DBE45;
     border-radius: 8px;
@@ -64,7 +62,7 @@ body {
 
 .footer {
     background-color: #2e8b57;
-    color: black;
+    color: white;
     text-align: center;
     padding: 15px;
     margin-top: 40px;
