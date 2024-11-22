@@ -23,7 +23,7 @@ body {
 
 .footer {
     background-color: #2e8b57; /* Sea green footer */
-    color: white;
+    color: black;
     text-align: center;
     padding: 15px;
     margin-top: 40px;
@@ -41,17 +41,15 @@ body {
     width: 100%;
     height: 100vh; /* Ensure the image fills the available height */
     border-radius: 8px;
-    border: 2px solid #2e8b57;
+    border: 2px solid #6DBE45;
 }
 
-.navbar .d-flex {
-    width: 50%;
-}
+{
 
 .navbar .form-control {
     border-radius: 20px;
     padding-left: 15px;
-    border: 2px solid #2e8b57;
+    border: 2px solid #6DBE45;
 }
 
 @media (max-width: 768px) {
