@@ -1,9 +1,9 @@
 .navbar {
-    background-color: #008080 !important;
+    background-color: #808000 !important;
 }
 
 body {
-    background-color: #D2B48C; /* Tan background */
+    background-color: #FDF5E6; /* Old Lace background */
     margin: 0;
     font-family: Arial, sans-serif;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 .footer {
-    background-color: #008080; /* Teal footer */
+    background-color: #808000; /* Olive footer */
     color: white;
     text-align: center;
     padding: 15px;
