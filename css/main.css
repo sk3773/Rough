@@ -1,7 +1,8 @@
+/* General Navbar and Page Styles */
 .navbar {
-    background-color: #2e8b57 !important; 
-    padding: 1rem 1.5rem; 
-    height: 70px; 
+    background-color: #2e8b57 !important;
+    padding: 1rem 1.5rem;
+    height: 70px;
 }
 
 body {
@@ -15,6 +16,44 @@ body {
     margin-top: 40px;
 }
 
+/* Recipe Section with Flex-Wrap */
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping of child elements */
+    gap: 20px; /* Add space between the image and text */
+    align-items: flex-start; /* Align items at the top */
+    margin-top: 20px;
+}
+
+.recipe-container img {
+    flex: 0 0 auto; /* Keep the image size fixed */
+    max-width: 40%; /* Adjust the image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    border: 2px solid #6DBE45;
+}
+
+.recipe-container .text-content {
+    flex: 1 1 auto; /* Allow text to grow and shrink as needed */
+    min-width: 300px; /* Ensure a minimum width for the text block */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .recipe-container {
+        flex-direction: column; /* Stack vertically on small screens */
+    }
+
+    .recipe-container img {
+        max-width: 100%; /* Full width on smaller screens */
+    }
+
+    .recipe-container .text-content {
+        margin-top: 10px; /* Add spacing for better layout */
+    }
+}
+
+/* Card and Footer Styles */
 .card {
     border: 2px solid #6DBE45;
     border-radius: 8px;
@@ -34,14 +73,14 @@ body {
 }
 
 #carouselExample {
-    width: 80%; 
-    margin: 30px auto; 
+    width: 80%;
+    margin: 30px auto;
 }
 
 .carousel-item img {
     object-fit: cover;
     width: 80%;
-    height: 80vh; 
+    height: 80vh;
     border-radius: 8px;
     border: 2px solid #6DBE45;
 }
@@ -50,18 +89,4 @@ body {
     border-radius: 20px;
     padding-left: 15px;
     border: 2px solid #6DBE45;
-}
-
-@media (max-width: 768px) {
-    .navbar .d-flex {
-        width: 70%;
-    }
-
-    .carousel-item img {
-        height: 300px;
-    }
-
-    .card {
-        margin-bottom: 15px;
-    }
 }
