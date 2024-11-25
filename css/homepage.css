@@ -1,81 +1,67 @@
 .navbar {
-    background-color: #a0522d;
-    padding: 1rem 1.5rem;
-    height: 70px;
+    background-color: #2e8b57 !important; 
+    padding: 1rem 1.5rem; 
+    height: 70px; 
 }
 
 body {
-    background-color: wheat;
+    background-color: #FAF0E6; /* Linen background */
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
 .content {
-    padding: 30px 20px;
+    padding: 30px 15px;
     margin-top: 40px;
-}
-
-.recipe-container {
-    margin-top: 20px;
-}
-
-.recipe-container img {
-    width: 45%;
-    height: auto;
-    border-radius: 10px;
-    border: 2px solid #a1c6a1;
-}
-
-.recipe-container .text-content {
-    width: 45%;
-    margin-left: 10px;
-}
-
-@media (max-width: 768px) {
-    .recipe-container img {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .recipe-container .text-content {
-        width: 100%;
-        margin-left: 0;
-    }
 }
 
 .card {
-    border: 2px solid #a1c6a1;
-    border-radius: 12px;
-    padding: 20px;
-    margin-bottom: 30px;
-    background-color: #ffffff;
+    border: 2px solid #6DBE45;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
 }
 
 .footer {
-    background-color: rgba(107, 142, 35, 0.8);
-    color: white;
+    background-color: #2e8b57;
+    color: black;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     margin-top: 40px;
-    border-top: 2px solid #a1c6a1;
+    border-top: 2px solid #6DBE45;
     font-size: 14px;
 }
 
 #carouselExample {
-    width: 80%;
-    margin: 30px auto;
+    width: 80%; 
+    margin: 30px auto; 
 }
 
 .carousel-item img {
     object-fit: cover;
-    width: 100%;
-    height: 70vh;
+    width: 80%;
+    height: 80vh; 
     border-radius: 8px;
-    border: 2px solid #a1c6a1;
+    border: 2px solid #6DBE45;
 }
 
 .navbar .form-control {
     border-radius: 20px;
     padding-left: 15px;
-    border: 2px solid #a1c6a1;
+    border: 2px solid #6DBE45;
+}
+
+@media (max-width: 768px) {
+    .navbar .d-flex {
+        width: 70%;
+    }
+
+    .carousel-item img {
+        height: 300px;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
 }
