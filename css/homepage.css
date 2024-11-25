@@ -11,7 +11,6 @@ body {
 }
 
 .navbar {
-    background-color: #28a745 !important;
     padding: 1rem 1.5rem;
     height: 70px;
     display: flex;
@@ -20,7 +19,6 @@ body {
 }
 
 .card.bg-success {
-    background-color: #28a745 !important;
     color: white;
     border: 2px solid #6DBE45;
     border-radius: 8px;
@@ -53,8 +51,8 @@ body {
     text-align: center;
     padding: 15px;
     margin-top: 40px;
-    border-top: 2px solid #6DBE45;
     font-size: 14px;
+      border: 2px solid #6DBE45;
 }
 
 @media (max-width: 768px) {
