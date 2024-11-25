@@ -55,9 +55,6 @@ body {
     background-color: #ffffff;
 }
 
-.card:hover {
-    background-color: #e6f7e6;
-}
 
 .card:focus {
     outline: none;
