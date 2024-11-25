@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #5e3c2c;
+    background-color: ##a0522d;
     padding: 1rem 1.5rem;
     height: 70px;
 }
@@ -26,9 +26,6 @@ body {
     border: 2px solid #a1c6a1;
 }
 
-.recipe-container img:hover {
-    opacity: 0.8;
-}
 
 .recipe-container .text-content {
     width: 45%;
@@ -55,12 +52,6 @@ body {
     background-color: #ffffff;
 }
 
-.card:hover {
-    background-color: #e6f7e6;
-}
-
-.card:focus {
-    outline: none;
 }
 
 .footer {
@@ -84,10 +75,6 @@ body {
     height: 70vh;
     border-radius: 8px;
     border: 2px solid #a1c6a1;
-}
-
-.carousel-item img:hover {
-    opacity: 0.8;
 }
 
 .navbar .form-control {
