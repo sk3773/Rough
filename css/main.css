@@ -1,11 +1,11 @@
 .navbar {
-    background-color:OliveDrab;
+    background-color: OliveDrab;
     padding: 1rem 1.5rem;
     height: 70px;
 }
 
 body {
-    background-color:Linen;
+    background-color: Linen;
     margin: 0;
     font-family: Arial, sans-serif;
 }
@@ -26,8 +26,7 @@ body {
     border: 2px solid #a1c6a1;
 }
 
-.recipe-container img:hover {
-    opacity: 0.8;
+
 }
 
 .recipe-container .text-content {
@@ -56,9 +55,6 @@ body {
 }
 
 
-.card:focus {
-    outline: none;
-}
 
 .footer {
     background-color: #a1c6a1; 
@@ -83,8 +79,7 @@ body {
     border: 2px solid #a1c6a1;
 }
 
-.carousel-item img:hover {
-    opacity: 0.8;
+
 }
 
 .navbar .form-control {
