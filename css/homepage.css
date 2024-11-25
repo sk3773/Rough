@@ -1,11 +1,11 @@
 .navbar {
-    background-color: #2e8b57 !important; 
+    background-color: #556B2F !important; 
     padding: 1rem 1.5rem; 
     height: 70px; 
 }
 
 body {
-    background-color: #FAF0E6; /* Linen background */
+    background-color: #b5b35d; 
     margin: 0;
     font-family: Arial, sans-serif;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 .footer {
-    background-color: #2e8b57;
+    background-color: #556B2F;
     color: black;
     text-align: center;
     padding: 15px;
