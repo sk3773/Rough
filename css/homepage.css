@@ -46,12 +46,13 @@ body {
 }
 
 .footer {
+    background-color: #343a40 !important;
     color: white;
     text-align: center;
     padding: 15px;
     margin-top: 40px;
     font-size: 14px;
-      border: 2px solid #6DBE45;
+    border: 2px solid #6DBE45;
 }
 
 @media (max-width: 768px) {
