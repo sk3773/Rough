@@ -1,11 +1,11 @@
 .navbar {
-    background-color: OliveDrab;
+    background-color: seagreen;
     padding: 1rem 1.5rem;
     height: 70px;
 }
 
 body {
-    background-color: Linen;
+    background-color: linen;
     margin: 0;
     font-family: Arial, sans-serif;
 }
@@ -79,9 +79,3 @@ body {
     padding-left: 15px;
     border: 2px solid #a1c6a1;
 }
-
-.navbar .form-control:focus {
-    border-color: #4b8a3d;
-    outline: none;
-}
-
